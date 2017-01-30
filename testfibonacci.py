@@ -34,11 +34,12 @@ class FibonacciTests(unittest.TestCase):
     	self.assertEqual(fibonacci(2), 1)
 
     def test_if_the_function_returns_correct_value(self):
-    	"""Tests if the function returns the correct value of a number"""
-    	self.assertEqual(fibonacci(6), 8)
+        """Tests if the function returns the correct value of a number"""
+        self.assertEqual(fibonacci(6), 8)
 
     def test_if_the_function_returns_result_of_type_integer(self):
-    	"""Tests if the function returns a value of type integer"""
-    	self.assertIsInstance(fibonacci(7), int)
+        """Tests if the function returns a value of type integer"""
+        self.assertIsInstance(fibonacci(7), int)
+
 
     
