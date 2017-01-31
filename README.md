@@ -17,6 +17,7 @@ This is a program puts the fibonacci sequence into action
  Install `pytest` or `nosetests`
  
  `$ pip install pytest`
+ 
  `$ pip install nose`
   
  Run the application with the following commands:
